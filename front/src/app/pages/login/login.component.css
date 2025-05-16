@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* ocupa a altura toda da tela */
+    padding: 20px;
+    gap: 40px; /* espaço entre a imagem e o formulário */
+}
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 1200px; /* ajuste conforme o tamanho desejado */
+}
+  
+  app-login-form {
+    max-width: 400px;
+    width: 100%;
+  }
+  

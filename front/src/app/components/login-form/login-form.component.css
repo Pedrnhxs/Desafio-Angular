@@ -1,0 +1,37 @@
+.tela {
+  display: flex;
+  height: 100vh;
+}
+
+.imagem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem img {
+  max-width: 90%;
+  height: auto;
+}
+
+.formulario {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  background-size: cover;
+}
+
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.titel{
+  color: rgb(83, 161, 4);
+}

@@ -1,0 +1,6 @@
+.welcome {
+    margin-top: -150px;      /* ajuste conforme necessário */
+    margin-bottom: 100px;   /* espaço entre o texto e a imagem */
+    text-align: center;    /* centraliza o texto */
+    /* Remova display: flex e align-items */
+}

@@ -1,0 +1,25 @@
+<!-- Botão de menu hambúrguer fixo no canto superior esquerdo -->
+<button
+  class="menu-burger-btn"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#offcanvasExample"
+  aria-controls="offcanvasExample"
+  title="Abrir menu"
+>
+  <i class="bi bi-list"></i>
+</button>
+
+<!-- Offcanvas Bootstrap -->
+<div class="offcanvas-body d-flex flex-column gap-2">
+  <button class="btn btn-primary shadow-border border-black d-flex align-items-center gap-2" (click)="goToHome()">
+    <i class="bi bi-house"></i>
+    Home
+  </button>
+  <a href="/home"></a>
+  <button class="btn btn-primary shadow-border border-black d-flex align-items-center gap-2" (click)="goToDashboard()">
+    <i class="bi bi-speedometer2"></i>
+    Dashboard
+  </button>
+  <a href="/dashboard"></a>
+</div>

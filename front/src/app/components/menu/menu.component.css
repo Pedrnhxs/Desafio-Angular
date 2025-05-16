@@ -1,0 +1,44 @@
+.menu-burger-btn {
+    position: fixed;
+    top: 24px;
+    /* ajuste conforme necessário */
+    left: 24px;
+    /* ajuste conforme necessário */
+    z-index: 1051;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    /* azul Bootstrap */
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    transition: box-shadow 0.2s, background 0.2s;
+}
+
+.menu-burger-btn:hover,
+.menu-burger-btn:focus {
+    background-color: #0b5ed7;
+    /* azul mais escuro no hover */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.20);
+    outline: none;
+}
+
+.menu-burger-btn i {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.menu-logo {
+    max-width: 120px;   /* ajuste conforme necessário */
+    max-height: 56px;   /* ajuste conforme necessário */
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }

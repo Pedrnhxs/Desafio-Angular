@@ -1,0 +1,25 @@
+<div class="tela">
+  <div class="formulario d-flex flex-column align-items-center justify-content-center">
+    <div class="w-10">
+      <img src="img/ford.png" alt="" style="width: 300px; margin-top: -350px;">
+    </div> 
+    
+  <h1 class="mb-5 titel">
+      Boas-vindas!
+  </h1>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmitLogin()" class="form-box shadow border border-dark p-3 rounded-2">
+      <div class="form-floating mb-3">
+        <input formControlName="nome" type="texto" class="form-control" id="userInput" placeholder="user" required>
+        <label for="userInput">Usuário</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input formControlName="senha" type="password" class="form-control" id="passwordInput" placeholder="password" required>
+        <label for="passwordInput">Senha</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Entrar</button>
+    </form>
+  </div>
+</div>
